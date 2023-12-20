@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    color: #02367b;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.head {
+    color: #02367b;
+    font-size: xx-large;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.head:hover {
+    transform: scale(1.02);
+}
+
+.btn {
+    width: 75px;
+    background-color: #02367b;
+    color: white;
+    font-weight: 750;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+    font-weight: 800;
+}
+
+.des h1 {
+    padding-bottom: 15px;
+}
+
+.des {
+    margin-top: 13%;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+}
+
+.buttons {
+    margin-top: 2%;
+    transition: all 0.5s ease-out;
+}
+button{
+    cursor: pointer;
+}
+.click {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin: 8px;
+    background-color: #02367b;
+    border: none;
+    border-radius: 10px;    
+    color: white;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.clik {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin: 8px;
+    background-color: #02367b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.click:hover,
+.clik:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.popup{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.box{
+    background-color: lightgray;
+    color: white;
+    width: 15%;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    z-index: 2;
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.loginform{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform input{
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transform: scale(1.02);
+    border-radius: 8px;
+}
+.loginform input:focus{
+    outline: none;
+}
+.bts{
+    padding-top: 5px;
+    display: flex;
+
+}
+.cl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin: 8px;
+    background-color: #02367b;
+    border: none;
+    border-radius: 10px;    
+    color: white;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.cli {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin: 8px;
+    background-color: #02367b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    flex-grow: 1;
+}
+.cl:hover,
+.cli:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#nam, #pas{
+    background: transparent;
+}
+#form {
+    width: 400px;
+    margin: 6% auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#form h2 {
+    color: #02367b;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #02367b;
+    border: none;
+    border-radius: 4px;
+}
+#sub {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #02367b;
+    border: none;
+    border-radius: 4px;
+}
+#form button:hover, #sub:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+.inc {
+    display: flex;
+    flex-direction: column;
+}
+
+.inc input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+.inc input:hover{
+    transform: scale(1.03);
+}
+.inc input:focus {
+    outline: none;
+}
+
+.inc.success input {
+    border-color: #09c372;
+}
+
+.inc.error input {
+    border-color: #ff3860;
+}
+
+.inc .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.success{
+    margin-top: 14%;
+}

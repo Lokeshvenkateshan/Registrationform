@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <strong class="head">E-Library</strong>
+        <button class="btn">Log In</button>
+    </header>
+    <main>
+        <div class="des">
+            <h1>Welcome to E-Library...!</h1>
+            <h2>Access The Books Whenever and Wherever You Want.</h2>
+        </div>
+        <div class="buttons">
+            <center><a href="register.html"><button class="click">Register</button></a><button class="clik">Log In</button></center>
+        </div>
+    </main>
+
+    <div class="popup"></div>
+    <div class="box">
+        <form class="form">
+            <center>
+                <h3 style="color: #02367b;">Log In</h3>
+            </center>
+            <div class="loginform">
+                <label for="name" style="color: black;">Username</label>
+                <input type="text" placeholder="Name" id="nam">
+            </div>
+            <div class="loginform">
+                <label for="pass" style="color: black;">Password</label>
+                <input type="password" placeholder="password" id="pas">
+            </div>
+
+
+        </form>
+        <div class="bts">
+            <center><button class="cl">Log In</button><button class="cli">Back</button>
+            </center>
+        </div>
+    </div>
+    <script>
+        var popup = document.querySelector(".popup")
+        var box = document.querySelector(".box")
+        var loginbtn = document.querySelector(".clik")
+        loginbtn.addEventListener("click", function () {
+            popup.style.display = "block"
+            box.style.display = "block"
+        })
+
+        var logintop = document.querySelector(".btn")
+        logintop.addEventListener("click", function () {
+            popup.style.display = "block"
+            box.style.display = "block"
+        })
+
+        var back = document.querySelector('.cli')
+        back.addEventListener("click", function () {
+            popup.style.display = "none"
+            box.style.display = "none"
+        })
+    </script>
+</body>
+
+</html>
